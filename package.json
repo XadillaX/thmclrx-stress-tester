@@ -1,0 +1,31 @@
+{
+  "name": "thmclrx-stress-tester",
+  "version": "0.0.1",
+  "description": "Stress tester for thmclrx.",
+  "main": "./run.js",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "ejs": "^1.0.0",
+    "moment": "^2.8.3",
+    "spidex": "^1.0.7",
+    "nomnom": "^1.8.0",
+    "sugar": "^1.4.1",
+    "sync-runner": "^0.0.5-fixwin",
+    "scarlet-task": "^0.1.0",
+    "walk": "^2.3.4",
+    "thmclrx": "^0.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://gitlab@gitlab.widget-inc.com:65422/xadillax/thmclrx-stress-tester.git"
+  },
+  "keywords": [
+    "thmclrx"
+  ],
+  "author": "XadillaX",
+  "license": "GPLv2"
+}
