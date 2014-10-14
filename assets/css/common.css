@@ -1,0 +1,53 @@
+ul.color-chips {
+    padding: 0;
+    margin-bottom: 10px;
+    list-style: none;
+
+    position: relative;
+    display: inline-block;
+}
+
+ul.color-chips li {
+    width: 25px;
+    margin: 0;
+    float: left;
+    display: list-item;
+}
+
+ul.color-chips li a {
+    display: block;
+    width: auto;
+    float: none;
+
+    height: 12px;
+    text-indent: -9999px;
+}
+
+ul.color-chips li a:hover {
+    background-image: none;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+ul.color-chips li:first-child a {
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+ul.color-chips li:last-child a {
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
