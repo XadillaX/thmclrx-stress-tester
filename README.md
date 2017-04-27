@@ -8,7 +8,7 @@ Usage: ./run.js <action> [options]
 action     tester action. [gen|test]
 
 Options:
-   -t, --type    type number in http://m.lovebizhi.com/.  [7]
+   -t, --type    type name in http://www.netbian.com/.  [dongman]
    -p, --pages   example: 1,3,5-9,12  [1-5]
 ```
 
