@@ -19,8 +19,8 @@ var opts = require("nomnom").script("./run.js").option("action", {
     }
 }).option("type", {
     abbr: "t",
-    default: "7",
-    help: "type number in http://m.lovebizhi.com/."
+    default: "dongman",
+    help: "type name in http://www.netbian.com/."
 }).option("pages", {
     abbr: "p",
     default: "1-5",
