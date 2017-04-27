@@ -43,7 +43,7 @@
     <div class="container">
         <div class="starter-template">
             <div class="jumbotron">
-                <h1>Filename: <%= filename %></h1>
+                <h1><%= filename.truncate(16, "middle") %></h1>
                 <img src="<%= img %>" alt="<%= filename %>" class="img-thumbnail" style="margin-bottom: 10px;" /><br />
 
                 <ul class="color-chips group">
