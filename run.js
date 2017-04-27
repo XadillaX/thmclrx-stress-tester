@@ -5,24 +5,26 @@
  * Copyright (c) 2014 Huaban.com, all rights
  * reserved
  */
-require("sugar");
+var Sugar = require("sugar");
+Sugar.extend();
+
 var opts = require("nomnom").script("./run.js").option("action", {
-    position    : 0,
-    required    : true,
-    help        : "tester action. [gen|test]",
-    callback    : function(v) {
+    position: 0,
+    required: true,
+    help: "tester action. [gen|test]",
+    callback: function(v) {
         if(v !== "gen" && v !== "test") {
             return "Wrong command.";
         }
     }
 }).option("type", {
-    abbr        : "t",
-    default     : "7",
-    help        : "type number in http://m.lovebizhi.com/."
+    abbr: "t",
+    default: "7",
+    help: "type number in http://m.lovebizhi.com/."
 }).option("pages", {
-    abbr        : "p",
-    default     : "1-5",
-    help        : "example: 1,3,5-9,12"
+    abbr: "p",
+    default: "1-5",
+    help: "example: 1,3,5-9,12"
 }).parse();
 
 switch(opts.action) {
