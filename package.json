@@ -5,7 +5,7 @@
   "main": "./run.js",
   "dependencies": {
     "cheerio": "^0.22.0",
-    "ejs": "^2.5.6",
+    "ejs": "^3.1.6",
     "moment": "^2.18.1",
     "spidex": "^2.2.1",
     "nomnom": "^1.8.1",
