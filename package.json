@@ -11,7 +11,7 @@
     "nomnom": "^1.8.1",
     "sugar": "^2.0.4",
     "sync-runner": "^0.1.5",
-    "scarlet-task": "^1.0.0",
+    "scarlet-task": "^2.0.0",
     "walk": "^2.3.9",
     "thmclrx": "^1.0.0"
   },
